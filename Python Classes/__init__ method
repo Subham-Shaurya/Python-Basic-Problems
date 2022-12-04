@@ -1,0 +1,8 @@
+class college:
+    def __init__(cource,f1,f2):
+        cource.f1=f1
+        cource.f2=f2
+a=college("Hena",28)
+print(a.f1)
+print(a.f2)
+
