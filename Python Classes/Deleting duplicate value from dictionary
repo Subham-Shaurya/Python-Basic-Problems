@@ -1,0 +1,4 @@
+dict1=[{1:"A"},{ 2:"b"}, {1:"A"}]
+z={frozenset(item.items()):
+    item for item in dict1}.values()
+print(str(z))
